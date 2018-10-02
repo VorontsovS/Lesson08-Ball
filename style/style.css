@@ -1,0 +1,127 @@
+.ball {
+	width: 490px;
+	height: 416px;
+	background-image: url(../img/ball.jpg);
+	background-repeat: no-repeat;
+	padding: 60px 83px 40px 70px;
+}
+
+.blok-left {
+	width: 350px;
+	height: 416px;
+	float: left;
+}	
+
+.blok-right {
+	width: 135px;
+	height: 416px;
+	float: right;
+}
+
+.karta {
+	max-width: 300px;
+	background: hsl(300, 100%, 50%);
+	padding: 3px 5px 3px 12px;
+	border-radius: 5px;
+	font-family: OpenSans;
+	font-weight: bold;
+	font-size: 18px;
+	color: hsl(0, 100%, 100%);
+	float: left;
+}
+
+.karta span {
+	display: inline-block;
+	transform: scale(0.9, 1);
+	transform-origin: left;
+	word-spacing: 10px;
+}
+.karta span span {
+	transform: scale(1.1, 1);
+}
+
+.zagolovok	{
+	width: 350px;
+	margin: 40px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+.zagolovok	span {
+	display: inline-block;
+	transform: scale(0.86, 1);
+	transform-origin: left;
+	line-height: 1.3;
+	color: hsl(0, 100%, 100%);
+	font-family: OpenSans;
+	font-weight: bold;
+	font-size: 54px;
+}
+
+.textbloka {
+	width: 250px;
+	transform: scale(0.9, 1);
+	transform-origin: left;
+	padding: 15px 0px 0px 0px;
+	line-height: 1.6;
+	color: hsl(0, 100%, 100%);
+	font-family: OpenSans;
+	font-size: 16px;
+}
+
+.buy {
+	display: block;
+	vertical-align: top;
+	width: 95px;
+	height: 35px;
+	background: linear-gradient(hsl(200, 100%, 50%), hsl(210, 100%, 50%));
+	border-radius: 5px;
+	float: right;
+
+	padding: 10px 5px 3px 25px;
+}
+
+.buy::before {
+	content: " ";
+	display: block;
+	width: 34px;
+	height: 34px;
+	transform: rotate(-45deg);
+	position: absolute;
+	margin: -3px 80px;
+	z-index:0;
+	background: linear-gradient(-135deg, hsl(200, 100%, 50%), hsl(210, 100%, 50%));
+	border-radius: 5px;
+}
+
+.buy span {
+	display: inline-block;
+	transform: scale(0.9, 1);
+	color: hsl(0, 100%, 100%);
+	font-family: OpenSans;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.empty {
+	width: 135px;
+	height: 382px;
+}
+	
+.cost {	
+	display: inline-block;
+	height: 30px;
+	background: hsl(400, 100%, 50%);
+	border-radius: 5px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 28px;
+	padding: 2px 5px 3px 5px;
+	float: right;
+	margin: 0px -15px 0px 0px;
+}
+
+	
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans.ttf); 
+}
